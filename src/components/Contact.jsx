@@ -29,7 +29,7 @@ import 'react-toastify/dist/ReactToastify.css'
   };
 
   return (
-    <div className='container'>
+    <div className='container' id='contact'>
        
     <form ref={form} onSubmit={sendEmail} >
     <h1>Contact Me</h1>

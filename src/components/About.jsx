@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import img from "./image.jpg";
 
+
 const About = () => (
   <div className="about">
 
@@ -10,7 +11,7 @@ const About = () => (
       <p>
         My name is Priyanshu kumar mishra and I live in kolkata , West Bengal . I am a computer science student and completed my bachleors drgree in B.sc computer Science from University of Calcutta. I am very much passionate about Website Development and want to see myself at a higher position in IT companies in future
       </p>
-      <button>Contact Me</button>
+      <a href="#contact" id="btn">Contact Me</a>
       <a href="https://github.com/Priyanshu629" target="_blank">
           
           <i
