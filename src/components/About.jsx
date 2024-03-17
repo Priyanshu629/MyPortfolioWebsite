@@ -7,7 +7,8 @@ const About = () => (
 
 
     <div className="info">
-      <h1 id="h1">Hello Everyone</h1>
+      <div id="h1"><h1>Hello Everyone</h1></div>
+      
       <p>
         My name is Priyanshu kumar mishra and I live in kolkata , West Bengal . I am a computer science student and completed my bachleors drgree in B.sc computer Science from University of Calcutta. I am very much passionate about Website Development and want to see myself at a higher position in IT companies in future
       </p>

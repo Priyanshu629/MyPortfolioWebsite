@@ -274,24 +274,7 @@ input,textarea::placeholder{
         width: 200px;
         height: 250px;
     }
-    #h1 {
-        width: 100%;
-        text-wrap: nowrap;
-        border-right: 5px solid orange;
-        overflow: hidden;
-        animation: intro 4s infinite steps(14);
-      }
-      @keyframes intro {
-        0% {
-          width: 0;
-        }
-        50% {
-          width: 14ch;
-        }
-        100% {
-          width: 0;
-        }
-      }
+    
 }
 @media screen and (max-width:795px)  {
     form{
@@ -320,18 +303,18 @@ input,textarea::placeholder{
 
 
 #h1 {
-    width: 100%;
+    width: 0%;
     text-wrap: nowrap;
     border-right: 3px solid orange;
     overflow: hidden;
-    animation: intro 4s infinite steps(14);
+    animation: intro 4s infinite steps(22);
   }
   @keyframes intro {
     0% {
       width: 0;
     }
     50% {
-      width: 14ch;
+      width: 28ch;
     }
     100% {
       width: 0;
